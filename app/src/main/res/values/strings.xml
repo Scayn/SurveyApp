@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SurveyExam</string>
+
+    <string-array name="spinner_køn">
+        <item>Vælg køn</item>
+        <item>Mand</item>
+        <item>Kvinde</item>
+    </string-array>
+
+    <string-array name="spinner_alder">
+        <item>Vælg alder</item>
+        <item>0-9 år</item>
+        <item>10-17 år</item>
+        <item>18-25 år</item>
+        <item>26-35 år</item>
+        <item>36-45 år</item>
+        <item>46-55 år</item>
+        <item>Over 56 år</item>
+    </string-array>
+
+    <string-array name="hvordanHarDuDet">
+        <item>Vælg her</item>
+        <item>Rigtig dejligt.</item>
+        <item>Udmærket.</item>
+        <item>Rimeligt.</item>
+        <item>Dårligt.</item>
+        <item>Rigtig træls.</item>
+    </string-array>
+
+    <string-array name="smerteNiveauIdag">
+        <item>Vælg her</item>
+        <item>Ingen smerter.</item>
+        <item>Meget få smerter.</item>
+        <item>Har lidt ondt.</item>
+        <item>Har meget ondt.</item>
+        <item>Massive smerter.</item>
+    </string-array>
+
+</resources>
