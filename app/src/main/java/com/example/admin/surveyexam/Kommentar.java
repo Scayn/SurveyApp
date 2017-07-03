@@ -67,7 +67,7 @@ public class Kommentar extends AppCompatActivity {
                     emailIntent.putExtra(Intent.EXTRA_EMAIL, TO);
                     emailIntent.putExtra(Intent.EXTRA_CC, CC);
                     emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Your subject");
-                    emailIntent.putExtra(Intent.EXTRA_TEXT, "Blabla");
+                    emailIntent.putExtra(Intent.EXTRA_TEXT, "Køn: " + brugerensKoen + " Alder: " + brugerensAlder);
 
                     try {
                         startActivity(Intent.createChooser(emailIntent, "Send mail..."));
